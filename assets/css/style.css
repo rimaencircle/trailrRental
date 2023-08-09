@@ -181,9 +181,6 @@
     .gchoice label{
         @apply font-bold font-eurostile text-black;
     }
-    .testingSection{
-        @apply bg-cream;
-    }
 
 }
 
