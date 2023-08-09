@@ -57,7 +57,7 @@
         @apply list-none m-0 p-0;
     }
     a {
-        @apply no-underline text-primary hover:text-black transition-common duration-200 ease-linear; 
+        @apply no-underline text-darkBlue hover:text-black transition-common duration-200 ease-linear; 
     }
     a, button, input, textarea, select {
         @apply outline-0;
@@ -120,7 +120,7 @@
     }
     .quantity .quantity__minus,
     .quantity .quantity__plus{
-        @apply h-15 w-15
+        @apply h-15 w-15;
     }
     .quantity .quantity__minus img,
     .quantity .quantity__plus img{
@@ -169,11 +169,11 @@
         @apply flex gap-13 items-center;
     }
     .gchoice input[type=radio]{
-        @apply border-black accent-primary appearance-none h-14 w-14 relative p-0 m-0;
+        @apply border-black accent-darkBlue appearance-none h-14 w-14 relative p-0 m-0;
     }
     .gchoice input[type=radio]::before{
         content: "";
-        @apply absolute top-2 left-2 bg-primary h-8 w-8 rounded-half scale-0 transition-common duration-200 ease-linear;
+        @apply absolute top-2 left-2 bg-darkBlue h-8 w-8 rounded-half scale-0 transition-common duration-200 ease-linear;
     }
     .gchoice input[type=radio]:checked:before{
         @apply scale-1;
@@ -186,7 +186,7 @@
 
 @layer components {  
      .theme-btn{
-        @apply pt-12 pb-10 px-28 bg-primary relative transition-common duration-300 ease-in-out text-16 leading-26 text-white inline-block uppercase z-1 max-w-fit overflow-hidden rounded-10 border-2 border-solid border-primary h-50; 
+        @apply pt-12 pb-10 px-28 bg-darkBlue relative transition-common duration-300 ease-in-out text-16 leading-26 text-white inline-block uppercase z-1 max-w-fit overflow-hidden rounded-10 border-2 border-solid border-darkBlue h-50; 
      }
      .theme-btn:hover{
         @apply text-white bg-black;
@@ -217,7 +217,7 @@
         @apply text-richBlack text-16 leading-26 capitalize py-53 block;
     }
     .top-bar-menu ul li.current-menu-item a, .top-bar-menu ul li a:hover, .top-bar-menu ul li a:focus, .top-bar-menu ul li:hover a{ 
-        @apply text-primary;
+        @apply text-darkBlue;
     }
     .top-navigation .top-bar-right .top-bar-menu{
         @apply flex-1_auto;
@@ -251,7 +251,7 @@
     }
     .responsive-menu .toggle_btn.active svg path,
     .responsive-menu .call-icon:hover svg path{
-        @apply fill-primary;
+        @apply fill-darkBlue;
     }
     /* header end */
 
@@ -310,7 +310,7 @@
         @apply flex flex-col gap-28 md:gap-20;
     }
     .tr-zigzag-section .wraper .text-wrapper .quality-list ul li{
-        @apply bg-cream pt-22 pb-14 px-28 md:px-10 md:pb-20 border-solid border-1 border-primary rounded-10 text-center text-black font-black uppercase;
+        @apply bg-cream pt-22 pb-14 px-28 md:px-10 md:pb-20 border-solid border-1 border-darkBlue rounded-10 text-center text-black font-black uppercase;
     }
     .tr-zigzag-section .wraper .text-wrapper .quality-list ul li h4{
         @apply text-16;
