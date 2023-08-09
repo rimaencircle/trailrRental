@@ -179,7 +179,7 @@
         @apply scale-1;
     }
     .gchoice label{
-        @apply font-bold font-eurostile text-black;
+        @apply font-bold font-eurostile text-black; 
     }
 
 }
