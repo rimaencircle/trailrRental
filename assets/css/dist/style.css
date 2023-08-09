@@ -311,7 +311,7 @@
   justify-content: center;
   overflow-y: auto;
   --tw-bg-opacity: 1;
-  background-color: rgb(0 39 79 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   padding-top: 35px;
   padding-bottom: 35px;
   --tw-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20);
@@ -444,7 +444,6 @@
 
 .hero-banner .title h1 {
   margin-bottom: 10px;
-  line-height: 44px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -452,6 +451,10 @@
 @media (max-width: 768px) {
   .hero-banner .title h1 {
     font-size: 47px;
+  }
+
+  .hero-banner .title h1 {
+    line-height: 44px;
   }
 }
 
@@ -649,6 +652,15 @@
 }
 
 /* form wrapper end */
+
+/* footer start */
+
+footer ul li a h5:hover {
+  --tw-text-opacity: 1;
+  color: rgb(215 22 41 / var(--tw-text-opacity));
+}
+
+/* footer end */
 
 *, ::before, ::after {
   box-sizing: border-box;
