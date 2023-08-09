@@ -217,7 +217,7 @@
         @apply text-richBlack text-16 leading-26 capitalize py-53 block;
     }
     .top-bar-menu ul li.current-menu-item a, .top-bar-menu ul li a:hover, .top-bar-menu ul li a:focus, .top-bar-menu ul li:hover a{ 
-        @apply text-primary;
+        @apply text-darkBlue;
     }
     .top-navigation .top-bar-right .top-bar-menu{
         @apply flex-1_auto;
