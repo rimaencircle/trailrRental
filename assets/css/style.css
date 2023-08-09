@@ -280,7 +280,7 @@
         @apply max-w-530 text-white md:text-center;
     }
     .hero-banner .title h1{
-        @apply mb-10 text-white md:text-47 leading-44;
+        @apply mb-10 text-white md:text-47 md:leading-44;
     }
     .hero-banner .title h3{
         @apply mb-20 text-white;
@@ -343,6 +343,12 @@
         @apply font-normal mr-3;
     }
     /* form wrapper end */
+
+    /* footer start */
+    footer ul li a h5{
+        @apply hover:text-primary;
+    }
+    /* footer end */
 }     
 
 /* Responsive CSS Start */
