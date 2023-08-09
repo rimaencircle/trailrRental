@@ -340,6 +340,12 @@
         @apply font-normal mr-3;
     }
     /* form wrapper end */
+
+    /* footer start */
+    footer ul li a h5{
+        @apply hover:text-primary;
+    }
+    /* footer end */
 }     
 
 /* Responsive CSS Start */

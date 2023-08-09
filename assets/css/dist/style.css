@@ -653,6 +653,15 @@
 
 /* form wrapper end */
 
+/* footer start */
+
+footer ul li a h5:hover {
+  --tw-text-opacity: 1;
+  color: rgb(215 22 41 / var(--tw-text-opacity));
+}
+
+/* footer end */
+
 *, ::before, ::after {
   box-sizing: border-box;
   transition: all 0.3s;
