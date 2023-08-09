@@ -311,7 +311,7 @@
   justify-content: center;
   overflow-y: auto;
   --tw-bg-opacity: 1;
-  background-color: rgb(65 65 65 / var(--tw-bg-opacity));
+  background-color: rgb(215 22 41 / var(--tw-bg-opacity));
   padding-top: 35px;
   padding-bottom: 35px;
   --tw-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20);
@@ -663,7 +663,7 @@ body {
   font-weight: 700;
   line-height: 26px;
   --tw-text-opacity: 1;
-  color: rgb(65 65 65 / var(--tw-text-opacity));
+  color: rgb(215 22 41 / var(--tw-text-opacity));
 }
 
 .container-fluid {
@@ -807,7 +807,7 @@ input, select {
   padding-left: 28px;
   padding-right: 28px;
   --tw-text-opacity: 1;
-  color: rgb(65 65 65 / var(--tw-text-opacity));
+  color: rgb(215 22 41 / var(--tw-text-opacity));
 }
 
 select{
@@ -824,21 +824,21 @@ select{
 input::-moz-placeholder {
   font-weight: 400;
   --tw-text-opacity: 1;
-  color: rgb(65 65 65 / var(--tw-text-opacity));
+  color: rgb(215 22 41 / var(--tw-text-opacity));
   opacity: 0.4;
 }
 
 input:-ms-input-placeholder {
   font-weight: 400;
   --tw-text-opacity: 1;
-  color: rgb(65 65 65 / var(--tw-text-opacity));
+  color: rgb(215 22 41 / var(--tw-text-opacity));
   opacity: 0.4;
 }
 
 input::placeholder {
   font-weight: 400;
   --tw-text-opacity: 1;
-  color: rgb(65 65 65 / var(--tw-text-opacity));
+  color: rgb(215 22 41 / var(--tw-text-opacity));
   opacity: 0.4;
 }
 
@@ -862,7 +862,7 @@ label {
   margin-bottom: 4px;
   font-weight: 400;
   --tw-text-opacity: 1;
-  color: rgb(65 65 65 / var(--tw-text-opacity));
+  color: rgb(215 22 41 / var(--tw-text-opacity));
 }
 
 input[type='number']::-webkit-inner-spin-button,
@@ -922,7 +922,7 @@ input[type='number']::-webkit-inner-spin-button,
 
 .section-title h3 {
   --tw-text-opacity: 1;
-  color: rgb(65 65 65 / var(--tw-text-opacity));
+  color: rgb(215 22 41 / var(--tw-text-opacity));
 }
 
 .section-title p {

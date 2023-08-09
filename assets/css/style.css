@@ -45,7 +45,7 @@
         transition: all 0.3s;
     }    
     body {
-        @apply p-0 m-0 font-eurostile font-bold text-16 leading-26 text-richBlack;   
+        @apply p-0 m-0 font-eurostile font-bold text-16 leading-26 text-primary;   
     }  
     .container-fluid{
         @apply px-55 large:px-30;
@@ -95,20 +95,20 @@
     }
     input,
     select{
-        @apply bg-white rounded-10 py-10 px-28 border-solid border-1 border-black h-50 w-full text-richBlack;
+        @apply bg-white rounded-10 py-10 px-28 border-solid border-1 border-black h-50 w-full text-primary;
     }
     select{
         background-image: url('../images/arrow-point-to-right.svg');
         @apply appearance-none bg-no-repeat h-15 w-15 bg-contain;
     }
     input::placeholder{
-        @apply font-normal opacity-40 text-richBlack;
+        @apply font-normal opacity-40 text-primary;
     }
     textarea{
         @apply bg-white rounded-10 py-10 px-28 border-solid border-1 border-black h-120 w-full;
     }
     label{
-        @apply font-normal text-richBlack mb-4;
+        @apply font-normal text-primary mb-4;
     }
     input[type='number']::-webkit-inner-spin-button,
     input[type='number']::-webkit-outer-spin-button {
@@ -148,7 +148,7 @@
         @apply text-black;
     }
     .section-title h3{
-        @apply text-richBlack;
+        @apply text-primary;
     }
     .section-title p{
         @apply mt-14 max-w-1012 m-auto;
@@ -214,7 +214,7 @@
         @apply relative;
     }
     .top-bar-menu ul li a{
-        @apply text-richBlack text-16 leading-26 capitalize py-53 block;
+        @apply text-primary text-16 leading-26 capitalize py-53 block;
     }
     .top-bar-menu ul li.current-menu-item a, .top-bar-menu ul li a:hover, .top-bar-menu ul li a:focus, .top-bar-menu ul li:hover a{ 
         @apply text-darkBlue;
@@ -229,7 +229,7 @@
         @apply gap-70;
     }
     .accordian-menu{
-        @apply fixed top-[92px] shadow-menuShadow left-minus_100% right-0 w-full bg-richBlack py-35 z-2 transition-all duration-300 ease-in-out overflow-y-auto flex items-center justify-center;
+        @apply fixed top-[92px] shadow-menuShadow left-minus_100% right-0 w-full bg-primary py-35 z-2 transition-all duration-300 ease-in-out overflow-y-auto flex items-center justify-center;
     }
     .accordian-menu.open{
         @apply left-0;
