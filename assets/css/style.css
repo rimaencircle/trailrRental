@@ -57,7 +57,7 @@
         @apply list-none m-0 p-0;
     }
     a {
-        @apply no-underline text-primary hover:text-black transition-common duration-200 ease-linear; 
+        @apply no-underline text-darkBlue hover:text-black transition-common duration-200 ease-linear; 
     }
     a, button, input, textarea, select {
         @apply outline-0;
@@ -120,7 +120,7 @@
     }
     .quantity .quantity__minus,
     .quantity .quantity__plus{
-        @apply h-15 w-15
+        @apply h-15 w-15;
     }
     .quantity .quantity__minus img,
     .quantity .quantity__plus img{
@@ -189,7 +189,7 @@
 
 @layer components {  
      .theme-btn{
-        @apply pt-12 pb-10 px-28 bg-darkBlue relative transition-common duration-300 ease-in-out text-16 leading-26 text-white inline-block uppercase z-1 max-w-fit overflow-hidden rounded-10 border-2 border-solid border-primary h-50; 
+        @apply pt-12 pb-10 px-28 bg-darkBlue relative transition-common duration-300 ease-in-out text-16 leading-26 text-white inline-block uppercase z-1 max-w-fit overflow-hidden rounded-10 border-2 border-solid border-darkBlue h-50; 
      }
      .theme-btn:hover{
         @apply text-white bg-black;
@@ -254,7 +254,7 @@
     }
     .responsive-menu .toggle_btn.active svg path,
     .responsive-menu .call-icon:hover svg path{
-        @apply fill-primary;
+        @apply fill-darkBlue;
     }
     /* header end */
 
@@ -313,7 +313,7 @@
         @apply flex flex-col gap-28 md:gap-20;
     }
     .tr-zigzag-section .wraper .text-wrapper .quality-list ul li{
-        @apply bg-cream pt-22 pb-14 px-28 md:px-10 md:pb-20 border-solid border-1 border-primary rounded-10 text-center text-black font-black uppercase;
+        @apply bg-cream pt-22 pb-14 px-28 md:px-10 md:pb-20 border-solid border-1 border-darkBlue rounded-10 text-center text-black font-black uppercase;
     }
     .tr-zigzag-section .wraper .text-wrapper .quality-list ul li h4{
         @apply text-16;
